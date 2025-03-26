@@ -1,0 +1,14 @@
+name: learn-github-action/workflows
+'on':
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+      - run: echo "Hello World"
