@@ -1,5 +1,5 @@
 name: learn-github-action/workflows
-'on':
+on:
   push:
     branches:
       - main
